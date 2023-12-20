@@ -1,0 +1,13 @@
+Required Attributes
+- name
+- is_internal
+- lb_type
+- subnet_ids
+- is_enable_cross_zone_load_balancing
+- is_deletion_protected
+
+
+Conditional Attributes
+- enable_access_logs (required)
+  - nlb_access_log_bucket_name
+  - auto_create_s3_log_bucket

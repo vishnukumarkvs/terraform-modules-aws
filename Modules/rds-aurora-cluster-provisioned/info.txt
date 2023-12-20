@@ -1,0 +1,20 @@
+Required Attributes
+- cluster_identifier
+- engine
+- engine_version
+- database_name
+- master_username
+- db_subnet_group_name
+- rds_cluster_parameter_group_name
+- db_secret_name
+
+Optional
+- recovery_window_in_days (default = 7)
+
+
+Conditional Attributes
+- create_rds_cluster_parameter_group =  true (default = false)
+  - family
+  - parameter_group_settings
+- create_db_subnet_group =  true (default = false)
+  - subnet_ids
