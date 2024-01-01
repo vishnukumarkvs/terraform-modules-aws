@@ -1,2 +1,0 @@
-- Availability zones can be ignored as we are mentioning db_subnet_group
-- In Amazon Elastic Container Service (Amazon ECS), the load balancer is typically associated with an ECS service rather than at the cluster level. Each ECS service can have an associated load balancer that distributes incoming traffic across the tasks running within the service.
